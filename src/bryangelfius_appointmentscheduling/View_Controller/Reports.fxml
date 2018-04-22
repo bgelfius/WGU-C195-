@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="554.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="bryangelfius_appointmentscheduling.View_Controller.ReportsController">
+   <children>
+      <Label fx:id="reportTitle" alignment="CENTER" layoutX="225.0" layoutY="23.0" prefHeight="17.0" prefWidth="376.0" text="Current Report" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="287.0" layoutY="515.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+      <TextArea fx:id="reportData" layoutY="77.0" prefHeight="418.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
